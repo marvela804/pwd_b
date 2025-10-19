@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="id" lang="id">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Reservation Hotel Room</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+
+<body>
+    <div class="title">
+        <br/>
+        <div id="h2">
+            <img src="teddy.png" id="teddy1">
+            <h1>Welcome To Paddington Hug Inn Reservation</h1>
+            <img src="teddy.png" id="teddy2">
+        </div>
+    </div>
+    
+    <form>
+        <fieldset>
+            <legend>Personal Data</legend>
+            
+            <label for="name">1. Name</label>
+            <br />
+            <input type="text" id="name" />
+            <br /><br />
+            
+            <label for="gender">2. Gender</label>
+            <br />
+            <input type="text" id="gender" />
+            <br /><br />
+            
+            <label for="email">3. Email Address</label>
+            <br />
+            <input type="email" id="email" />
+            <br /><br />
+            
+            <label for="telp">4. Telp Number</label>
+            <br />
+            <input type="text" id="telp" />
+        </fieldset>
+        
+        <fieldset>
+            <legend>Reservation Room Form</legend>
+            
+            <label for="reservename">1. Reservation Name</label>
+            <br />
+            <input type="text" id="reservename" />
+            <br /><br />
+            
+            <label for="booking">2. Booking Date</label>
+            <br />
+            <input type="text" id="booking" />
+            <br /><br />
+            
+            <label for="room">3. Room Type</label>
+            <br />
+            <select name="room" id="room">
+                <option>Deluxe</option>
+            </select>
+            <br /><br />
+            
+            <label for="bed">4. Bed Type</label>
+            <br />
+            <select name="bed" id="bed">
+                <option>Single bed</option>
+            </select>
+            <br /><br />
+            
+            <label for="breakfast">5. Breakfast</label>
+            <br />
+            <label for="with_breakfast">
+                <input type="radio" name="Breakfast" id="with_breakfast" value="With Breakfast" /> With Breakfast
+            </label>
+            <label for="without_breakfast">
+                <input type="radio" name="Breakfast" id="without_breakfast" value="Without Breakfast" /> Without Breakfast
+            </label>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Payment</legend>
+            
+            <label for="checkin">1. Check in date</label>
+            <br />
+            <input type="text" id="checkin" />
+            <br /><br />
+            
+            <label for="checkout">2. Check out date</label>
+            <br />
+            <input type="text" id="checkout" />
+            <br /><br />
+            
+            <label for="payment">3. Payment Method</label>
+            <br />
+            <select name="payment" id="payment">
+                <option>Cash</option>
+            </select>
+        </fieldset>
+    </form>
+
+    <br /><br />
+
+    <div class="submit_title">
+        <input type="submit" name="submit" value="submit" />
+    </div>
+    
+    <br /><br />
+
+    <img src="red teddy.png" id="red_teddy">
+</body>
+</html>
